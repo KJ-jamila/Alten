@@ -73,11 +73,12 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					 <configuration>
-          <systemPropertyVariables>
-            <propertyName>firefox</propertyName>
-          </systemPropertyVariables>
+        <systemPropertyVariables>
+            <webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
+        </systemPropertyVariables>
+    </configuration>
         </configuration>
-				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
