@@ -19,4 +19,13 @@
       </class> <!-- sample1.Login -->
     </classes>
   </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="sample2.ajout">
+        <methods>
+          <include name="Adding"/>
+        </methods>
+      </class> <!-- sample2.ajout -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->
