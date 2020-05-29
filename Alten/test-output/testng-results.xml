@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6943" started-at="2020-05-29T01:38:53 WEST" finished-at="2020-05-29T01:39:00 WEST">
+  <suite name="Suite" duration-ms="8738" started-at="2020-05-29T10:11:30 WEST" finished-at="2020-05-29T10:11:39 WEST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="3424" started-at="2020-05-29T01:38:53 WEST" finished-at="2020-05-29T01:38:56 WEST">
+    <test name="Test1" duration-ms="5091" started-at="2020-05-29T10:11:30 WEST" finished-at="2020-05-29T10:11:35 WEST">
       <class name="sample.CreationCompte">
-        <test-method status="FAIL" signature="Creer()[pri:0, instance:sample.CreationCompte@4bbfb90a]" name="Creer" duration-ms="3346" started-at="2020-05-29T01:38:53 WEST" finished-at="2020-05-29T01:38:56 WEST">
+        <test-method status="FAIL" signature="Creer()[pri:0, instance:sample.CreationCompte@4bbfb90a]" name="Creer" duration-ms="5009" started-at="2020-05-29T10:11:30 WEST" finished-at="2020-05-29T10:11:35 WEST">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 84
@@ -15,29 +15,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
@@ -46,29 +47,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -134,9 +136,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Creer -->
       </class> <!-- sample.CreationCompte -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="1704" started-at="2020-05-29T01:38:56 WEST" finished-at="2020-05-29T01:38:58 WEST">
+    <test name="Test2" duration-ms="1736" started-at="2020-05-29T10:11:35 WEST" finished-at="2020-05-29T10:11:37 WEST">
       <class name="sample1.Login">
-        <test-method status="FAIL" signature="logining()[pri:0, instance:sample1.Login@3b088d51]" name="logining" duration-ms="1689" started-at="2020-05-29T01:38:56 WEST" finished-at="2020-05-29T01:38:58 WEST">
+        <test-method status="FAIL" signature="logining()[pri:0, instance:sample1.Login@3b088d51]" name="logining" duration-ms="1729" started-at="2020-05-29T10:11:35 WEST" finished-at="2020-05-29T10:11:37 WEST">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 84
@@ -144,29 +146,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
@@ -175,29 +178,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -263,9 +267,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- logining -->
       </class> <!-- sample1.Login -->
     </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="1726" started-at="2020-05-29T01:38:58 WEST" finished-at="2020-05-29T01:39:00 WEST">
+    <test name="Test3" duration-ms="1814" started-at="2020-05-29T10:11:37 WEST" finished-at="2020-05-29T10:11:39 WEST">
       <class name="sample2.ajout">
-        <test-method status="FAIL" signature="Adding()[pri:0, instance:sample2.ajout@3712b94]" name="Adding" duration-ms="1714" started-at="2020-05-29T01:38:58 WEST" finished-at="2020-05-29T01:39:00 WEST">
+        <test-method status="FAIL" signature="Adding()[pri:0, instance:sample2.ajout@3712b94]" name="Adding" duration-ms="1798" started-at="2020-05-29T10:11:37 WEST" finished-at="2020-05-29T10:11:39 WEST">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 84
@@ -273,29 +277,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
@@ -304,29 +309,30 @@ Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00BC87E3+2852835]
-Ordinal0 [0x00AB5BB1+1727409]
-Ordinal0 [0x0098E4B9+517305]
-Ordinal0 [0x00920BA0+68512]
-Ordinal0 [0x0091D3A0+54176]
-Ordinal0 [0x0093D9F7+186871]
-Ordinal0 [0x0093D7FD+186365]
-Ordinal0 [0x0093B70B+177931]
-Ordinal0 [0x00922584+75140]
-Ordinal0 [0x00923650+79440]
-Ordinal0 [0x009235E9+79337]
-Ordinal0 [0x00ACAD5C+1813852]
-GetHandleVerifier [0x00CEC616+1075574]
-GetHandleVerifier [0x00CEC367+1074887]
-GetHandleVerifier [0x00CF7497+1120247]
-GetHandleVerifier [0x00CECC16+1077110]
-Ordinal0 [0x00AC3206+1782278]
-Ordinal0 [0x00ACC3BB+1819579]
-Ordinal0 [0x00ACC523+1819939]
-Ordinal0 [0x00AE2B45+1911621]
-BaseThreadInitThunk [0x761F6359+25]
-RtlGetAppContainerNamedObjectPath [0x770B7C24+228]
-RtlGetAppContainerNamedObjectPath [0x770B7BF4+180]
+Ordinal0 [0x002C87E3+2852835]
+Ordinal0 [0x001B5BB1+1727409]
+Ordinal0 [0x0008E4B9+517305]
+Ordinal0 [0x00020BA0+68512]
+Ordinal0 [0x0001D3A0+54176]
+Ordinal0 [0x0003D9F7+186871]
+Ordinal0 [0x0003D7FD+186365]
+Ordinal0 [0x0003B70B+177931]
+Ordinal0 [0x00022584+75140]
+Ordinal0 [0x00023650+79440]
+Ordinal0 [0x000235E9+79337]
+Ordinal0 [0x001CAD5C+1813852]
+GetHandleVerifier [0x003EC616+1075574]
+GetHandleVerifier [0x003EC367+1074887]
+GetHandleVerifier [0x003F7497+1120247]
+GetHandleVerifier [0x003ECC16+1077110]
+Ordinal0 [0x001C3206+1782278]
+Ordinal0 [0x001CC3BB+1819579]
+Ordinal0 [0x001CC523+1819939]
+Ordinal0 [0x001E2B45+1911621]
+BaseThreadInitThunk [0x77966359+25]
+RtlGetAppContainerNamedObjectPath [0x77B67C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B67BF4+180]
+(No symbol) [0x00000000]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
