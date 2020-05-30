@@ -29,14 +29,14 @@ public class Login {
 	       //Maximize the browser  
 	        driver.manage().window().maximize(); 
 	// Click on the Search button  
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'nav-link-accountList\']/span[1]")))).click();
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email\"]")))).click();
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email\"]")))).sendKeys("khalloufijamila8@gmail.com");
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'continue\']")))).click();
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'ap_password\'] ")))).sendKeys("Jamila1234@");
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'signInSubmit\']")))).click(); 
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'nav-link-accountList\']/span[1]"))).click();
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"ap_email\"]"))).click();
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"ap_email\"]"))).sendKeys("khalloufijamila8@gmail.com");
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'continue\']"))).click();
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'ap_password\'] "))).sendKeys("Jamila1234@");
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'signInSubmit\']"))).click(); 
 
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'continue\']")))).click(); 
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'continue\']"))).click(); 
 	 System.out.println("veuillez Entrer le code de verivication envoyé par message ");
 
 	//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 

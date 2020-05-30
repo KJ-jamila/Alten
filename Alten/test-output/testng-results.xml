@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29069" started-at="2020-05-30T23:36:42 WEST" finished-at="2020-05-30T23:37:11 WEST">
+  <suite name="Default suite" duration-ms="23106" started-at="2020-05-31T00:06:19 WEST" finished-at="2020-05-31T00:06:42 WEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29069" started-at="2020-05-30T23:36:42 WEST" finished-at="2020-05-30T23:37:11 WEST">
-      <class name="sample.CreationCompte">
-        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@7f13d6e]" name="Creer" duration-ms="29000" started-at="2020-05-30T23:36:42 WEST" finished-at="2020-05-30T23:37:11 WEST">
+    <test name="Default test" duration-ms="23106" started-at="2020-05-31T00:06:19 WEST" finished-at="2020-05-31T00:06:42 WEST">
+      <class name="sample1.Login">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@7f13d6e]" name="logining" duration-ms="23029" started-at="2020-05-31T00:06:19 WEST" finished-at="2020-05-31T00:06:42 WEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Creer -->
-      </class> <!-- sample.CreationCompte -->
+        </test-method> <!-- logining -->
+      </class> <!-- sample1.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
