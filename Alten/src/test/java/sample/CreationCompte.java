@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class CreationCompte {
 	 static WebDriver driver;
@@ -14,8 +16,8 @@ public class CreationCompte {
                
                 public void Creer () {
 		         // System Property for Chrome Driver   
-		      System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\selenium\\chromedriver.exe");  
-		        
+		      //System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\selenium\\chromedriver.exe");  
+		        WebDriverManager.chromedriver().setup();
 		           // Instantiate a ChromeDriver class.     
 		      WebDriver driver=new ChromeDriver(); 
 		      WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -27,13 +29,13 @@ public class CreationCompte {
 		        driver.manage().window().maximize(); 
 		        
 		       // Click on the Search button  
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/div/span")))).click();   
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"createAccountSubmit\"]")))).click();  
-		      wait.until(ExpectedConditions.visibilityOf( driver.findElement(By.xpath("//*[@id=\"ap_customer_name\"]")))).sendKeys("Jamila");
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(" //*[@id=\"ap_email\"]")))).sendKeys("khalloufijamila8@gmail.com");
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_password\"]")))).sendKeys("Jamila1234@");
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_password_check\"]")))).sendKeys("Jamila1234@");
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click(); 
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'nav-link-accountList\']/div/span")))).click();   
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'createAccountSubmit\']")))).click();  
+		      wait.until(ExpectedConditions.visibilityOf( driver.findElement(By.xpath("//*[@id=\'ap_customer_name\']")))).sendKeys("Jamila");
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(" //*[@id=\'ap_email\']")))).sendKeys("khalloufijamila8@gmail.com");
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'ap_password\']")))).sendKeys("Jamila1234@");
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'ap_password_check\']")))).sendKeys("Jamila1234@");
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'continue\']")))).click(); 
                 } 
 
 
