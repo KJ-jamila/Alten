@@ -21,7 +21,7 @@ public class Login {
 	        WebDriverManager.chromedriver().setup();
 	           // Instantiate a ChromeDriver class.     
 	      WebDriver driver=new ChromeDriver(); 
-	      WebDriverWait wait = new WebDriverWait(driver, 40);
+	      WebDriverWait wait = new WebDriverWait(driver, 10);
 	        
 	         // Launch Website  
 	      driver.get("https://www.amazon.fr");  
