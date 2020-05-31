@@ -28,16 +28,16 @@ public class CreationCompte {
 		       //Maximize the browser  
 		        driver.manage().window().maximize(); 
 		        
-		       // Click on the Search button  
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'nav-link-accountList\']/div/span")))).click();   
-		      WebElement Category_Body = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'createAccountSubmit\']")));
-		      Category_Body.click();
-		     // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'createAccountSubmit\']")))).click();  
-		      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'ap_customer_name\']"))).sendKeys("Jamila");
-		      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(" //*[@id=\'ap_email\']"))).sendKeys("khalloufijamila8@gmail.com");
-		      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'ap_password\']"))).sendKeys("Jamila1234@");
-		      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'ap_password_check\']"))).sendKeys("Jamila1234@");
-		      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'continue\']"))).click(); 
+		        // Click on the Search button  
+			      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@id='nav-link-accountList']")))).click();   
+			      WebElement Category_Body = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='createAccountSubmit']")));
+			      Category_Body.click();
+	
+			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_customer_name']"))).sendKeys("Jamila");
+			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_email']"))).sendKeys("khalloufijamila8@gmail.com");
+			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_password']"))).sendKeys("Jamila1234@");
+			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_password_check']"))).sendKeys("Jamila1234@");
+			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='continue']"))).click(); 
                 } 
 
 
