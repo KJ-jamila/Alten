@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="68200" started-at="2020-05-31T14:58:58 WEST" finished-at="2020-05-31T15:00:06 WEST">
+  <suite name="Suite" duration-ms="71582" started-at="2020-05-31T15:51:02 WEST" finished-at="2020-05-31T15:52:14 WEST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="22164" started-at="2020-05-31T14:58:58 WEST" finished-at="2020-05-31T14:59:20 WEST">
+    <test name="Test1" duration-ms="22268" started-at="2020-05-31T15:51:02 WEST" finished-at="2020-05-31T15:51:24 WEST">
       <class name="sample.CreationCompte">
-        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@7f13d6e]" name="Creer" duration-ms="22094" started-at="2020-05-31T14:58:58 WEST" finished-at="2020-05-31T14:59:20 WEST">
+        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@7f13d6e]" name="Creer" duration-ms="22200" started-at="2020-05-31T15:51:02 WEST" finished-at="2020-05-31T15:51:24 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creer -->
       </class> <!-- sample.CreationCompte -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="30385" started-at="2020-05-31T14:59:20 WEST" finished-at="2020-05-31T14:59:50 WEST">
+    <test name="Test2" duration-ms="29810" started-at="2020-05-31T15:51:25 WEST" finished-at="2020-05-31T15:51:54 WEST">
       <class name="sample1.Login">
-        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@4493d195]" name="logining" duration-ms="30379" started-at="2020-05-31T14:59:20 WEST" finished-at="2020-05-31T14:59:50 WEST">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@4493d195]" name="logining" duration-ms="29804" started-at="2020-05-31T15:51:25 WEST" finished-at="2020-05-31T15:51:54 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logining -->
       </class> <!-- sample1.Login -->
     </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="15620" started-at="2020-05-31T14:59:50 WEST" finished-at="2020-05-31T15:00:06 WEST">
+    <test name="Test3" duration-ms="19468" started-at="2020-05-31T15:51:54 WEST" finished-at="2020-05-31T15:52:14 WEST">
       <class name="sample2.ajout">
-        <test-method status="FAIL" signature="Adding()[pri:0, instance:sample2.ajout@34cd072c]" name="Adding" duration-ms="15591" started-at="2020-05-31T14:59:50 WEST" finished-at="2020-05-31T15:00:06 WEST">
+        <test-method status="FAIL" signature="Adding()[pri:0, instance:sample2.ajout@34cd072c]" name="Adding" duration-ms="19449" started-at="2020-05-31T15:51:54 WEST" finished-at="2020-05-31T15:52:14 WEST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div/h2[contains(.,'Apprendre à coder gratuitement')]/../following-sibling::div[1]/a"}
@@ -32,8 +32,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7eb4b0b5a3338d3a74bb8ea3469bf570
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c6e492634d5d56710d899a9cf0169278
 *** Element info: {Using=xpath, value=//div/h2[contains(.,'Apprendre à coder gratuitement')]/../following-sibling::div[1]/a}]]>
             </message>
             <full-stacktrace>
@@ -43,8 +43,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7eb4b0b5a3338d3a74bb8ea3469bf570
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c6e492634d5d56710d899a9cf0169278
 *** Element info: {Using=xpath, value=//div/h2[contains(.,'Apprendre à coder gratuitement')]/../following-sibling::div[1]/a}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
