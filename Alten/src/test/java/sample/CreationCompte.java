@@ -29,7 +29,7 @@ public class CreationCompte {
 		        driver.manage().window().maximize(); 
 		        
 		       // Click on the Search button  
-		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@id='nav-link-accountList']/div/span[text()='Bonjour, Identifiez-vous']")))).click();   
+		      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@id='nav-link-accountList']")))).click();   
 		      WebElement Category_Body = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='createAccountSubmit']")));
 		      Category_Body.click();
 		     // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'createAccountSubmit\']")))).click();  
