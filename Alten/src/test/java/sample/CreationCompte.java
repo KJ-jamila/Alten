@@ -32,7 +32,7 @@ public class CreationCompte {
 			      wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@id='nav-link-accountList']")))).click();   
 			      WebElement Category_Body = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='createAccountSubmit']")));
 			      Category_Body.click();
-	
+	//click
 			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_customer_name']"))).sendKeys("Jamila");
 			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_email']"))).sendKeys("khalloufijamila8@gmail.com");
 			      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_password']"))).sendKeys("Jamila1234@");
