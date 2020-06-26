@@ -28,9 +28,5 @@
       <class name="Cas.Click"/>
     </classes>
   </test> 
-  <test name="Test5">
-    <classes>
-      <class name="runner.RunnerClass"/>
-    </classes>
-  </test> 
+
 </suite>
