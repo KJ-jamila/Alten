@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
+  <test name="Test0">
+    <classes>
+      <class name="testalten.ticket"/>
+    </classes>
+  </test>
   <test name="Test1">
     <classes>
       <class name="sample.CreationCompte"/>
@@ -16,6 +21,16 @@
 <test name="Test3">
     <classes>
       <class name="sample2.ajout"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+    <classes>
+      <class name="Cas.Click"/>
+    </classes>
+  </test> 
+  <test name="Test5">
+    <classes>
+      <class name="runner.RunnerClass"/>
     </classes>
   </test> 
 </suite>

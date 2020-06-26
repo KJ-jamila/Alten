@@ -38,7 +38,7 @@ public class ajout {
 	    for(String hndl : windowHndls){
 	    String WindowURL = driver.switchTo().window(hndl).getCurrentUrl();
 	    if(WindowURL.equalsIgnoreCase("https://www.code-decode.net/code-amazon")){
-	    	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'navbar\']/ul/li[1]/a"))));//driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul/li[1]/a")).click();
+	    	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul/li[1]/a"))));
 	    	String mainWindow1 = driver.getWindowHandle();
 	    	 Set<String> windowHndls1 = driver.getWindowHandles();
 	    	 for(String hndl1 : windowHndls1){
@@ -56,14 +56,11 @@ public class ajout {
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'edit-field-prenom-und-0-value\']")))).sendKeys("Jamila");
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'edit-field-field-comment-avez-vous-de-und\']")))).click();   
 	    		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\'edit-field-cgu-und\']")))).click();  
-	    		//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"edit-submit\"]")))).click();
+	    		
 	    		    }
 	    		  
 
 	    		    
 	    
-	    }
-}
-	}
-	}
-}
+	    	 }}
+	    }}}
