@@ -3,19 +3,25 @@
   <groupId>Alten</groupId>
   <artifactId>Alten</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
   <dependencies>
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.0.0-alpha-5</version>
+</dependency>
     <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.1.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.0.0-alpha-5</version>
-</dependency>
+
 <!-- https://mvnrepository.com/artifact/io.fabric8.devops.apps/gerrit -->
 <dependency>
     <groupId>io.fabric8.devops.apps</groupId>

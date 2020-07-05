@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Cas.Click" hash-for-method="Clicking">Clicking</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sample2.ajout" hash-for-method="Adding">Adding</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testalten.ticket" hash-for-method="Clicking">Clicking</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testalten.ticket" hash-for-method="Clicking">Clicking</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Cas.Click" hash-for-method="Clicking">Clicking</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -134,6 +120,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sample1.Login" hash-for-method="logining">logining</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sample2.FailedLogin" hash-for-method="logining">logining</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -148,48 +139,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Cas.Click</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Clicking">
-                  </a> <!-- Clicking -->
-                  <span class="method-name">Clicking</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[6]/div[2]/ul[2]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
-System info: host: &apos;DESKTOP-FR57AJN&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d65ec27f23c5b862f8e5d873e4ba8877
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:255)
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">sample2.ajout</span>
+              <span class="class-name">sample2.FailedLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Adding">
-                  </a> <!-- Adding -->
-                  <span class="method-name">Adding</span>
+                  <a name="logining">
+                  </a> <!-- logining -->
+                  <span class="method-name">logining</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,6 +165,21 @@ Session ID: d65ec27f23c5b862f8e5d873e4ba8877
                   <a name="Creer">
                   </a> <!-- Creer -->
                   <span class="method-name">Creer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Cas.Click</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clicking">
+                  </a> <!-- Clicking -->
+                  <span class="method-name">Clicking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,31 +224,31 @@ Session ID: d65ec27f23c5b862f8e5d873e4ba8877
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testalten.ticket&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test0 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;sample.CreationCompte&quot;/&gt;
+      &lt;class name=&quot;testalten.ticket&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;sample1.Login&quot;/&gt;
+      &lt;class name=&quot;sample.CreationCompte&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test2 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;sample2.ajout&quot;/&gt;
+      &lt;class name=&quot;sample1.Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test3 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Cas.Click&quot;/&gt;
+      &lt;class name=&quot;sample2.FailedLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cas.Click&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -285,9 +260,6 @@ Session ID: d65ec27f23c5b862f8e5d873e4ba8877
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test0 (1 class)</span>
-              </li>
-              <li>
                 <span class="test-name">Test1 (1 class)</span>
               </li>
               <li>
@@ -298,6 +270,9 @@ Session ID: d65ec27f23c5b862f8e5d873e4ba8877
               </li>
               <li>
                 <span class="test-name">Test4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -325,30 +300,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Adding')
-data.setCell(0, 2, 'sample2.ajout')
-data.setCell(0, 3, 46907);
+data.setCell(0, 1, 'logining')
+data.setCell(0, 2, 'sample1.Login')
+data.setCell(0, 3, 77948);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Clicking')
 data.setCell(1, 2, 'Cas.Click')
-data.setCell(1, 3, 38190);
+data.setCell(1, 3, 47248);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Creer')
 data.setCell(2, 2, 'sample.CreationCompte')
-data.setCell(2, 3, 29827);
+data.setCell(2, 3, 45148);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logining')
-data.setCell(3, 2, 'sample1.Login')
-data.setCell(3, 3, 23929);
+data.setCell(3, 2, 'sample2.FailedLogin')
+data.setCell(3, 3, 26461);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Clicking')
 data.setCell(4, 2, 'testalten.ticket')
-data.setCell(4, 3, 12906);
+data.setCell(4, 3, 15895);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -384,30 +359,28 @@ return data;
               <div class="chronological-class-name">sample.CreationCompte</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Creer</span>
-                <span class="method-start">12932 ms</span>
+                <span class="method-start">15927 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sample1.Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logining</span>
-                <span class="method-start">42779 ms</span>
+                <span class="method-start">61123 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">sample2.ajout</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">sample2.FailedLogin</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Adding</span>
-                <span class="method-start">66739 ms</span>
+                <span class="method-name">logining</span>
+                <span class="method-start">139099 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Cas.Click</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Clicking</span>
-                <span class="method-start">113674 ms</span>
+                <span class="method-start">165584 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

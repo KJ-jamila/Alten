@@ -1,4 +1,4 @@
-package sample1;
+package sample2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -38,12 +38,12 @@ public class FailedLogin {
 		System.out.println("ce compte n'existe pas ");
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='continue']"))).click();
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_password'] ")))
-				.sendKeys("Jamila1234@");
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='signInSubmit']"))).click();
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='ap_password'] ")))
+		//		.sendKeys("Jamila1234@");
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='signInSubmit']"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='continue']"))).click();
-		System.out.println("veuillez Entrer le code de verivication envoyé par message ");
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='continue']"))).click();
+		//System.out.println("veuillez Entrer le code de verivication envoyé par message ");
 
 		// wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]")))).click();
 

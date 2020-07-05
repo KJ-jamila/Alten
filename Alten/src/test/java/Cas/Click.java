@@ -31,12 +31,12 @@ public class Click {
 		// Maximize the browser
 		driver.manage().window().maximize();
 //click
-	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'en-page\']/body/div[6]/header/div/div[3]/div[1]/ul/li[2]/a/span[1]"))).click(); 
-	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'en-page\']/body/div[6]/header/div/div[3]/div[1]/ul/li[2]/ul/li[1]/a"))).click();
+	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'fr-page\']/body/div[6]/header/div/div[3]/div[1]/ul/li[2]/a/span[1]"))).click(); 
+	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'fr-page\']/body/div[6]/header/div/div[3]/div[1]/ul/li[2]/ul/li[1]/a"))).click();
 	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"Username\"]"))).sendKeys("jamila khalloufi");
 	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"Password\"]"))).sendKeys("jamila123");
 	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"login-page\"]/body/div[6]/section/div/div/div/div/div/div[2]/div[1]/div[2]/form/div[2]/div[4]/input"))).click(); 
-	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='en-page']/body/div[6]/section/div/div/div/div/div/div/div[1]/div/div[1]/div/a[2]"))).click();
+	      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'fr-page\']/body/div[6]/section/div/div/div/div/div/div/div[1]/div/div[1]/div/a[2]"))).click();
 	     // wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"ph-topic\"]/div[2]/div/div[1]/div[2]/div/div/a[2]/span\r\n" + 
 	     //		"	    "))).click();
 	      String mainWindow = driver.getWindowHandle();
@@ -52,10 +52,10 @@ public class Click {
 		    	 for(String hndl1 : windowHndls1){
 		    		    String WindowURL1 = driver.switchTo().window(hndl1).getCurrentUrl();
 		    		    if(WindowURL1.equalsIgnoreCase("https://demo.nopcommerce.com/")){
-		    		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[2]/ul[2]/li[1]/a"))).click(); 
-		    		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div/div/a/img\r\n" + 
-		    		    		"		    		    	"))).click();
-		    		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[1]/div/div[2]/div[3]/div[2]/input[1]"))).click(); 
+		    		    //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[2]/ul[2]/li[1]/a"))).click(); 
+		    		    //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div/div/a/img\r\n" + 
+		    		    	//	"		    		    	"))).click();
+		    		   // wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[3]/div[2]/div[2]/div/div[2]/div[3]/div/div[1]/div/div[2]/div[3]/div[2]/input[1]"))).click(); 
 		    		   
 		    		    	
 	    

@@ -1,76 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="151934" started-at="2020-06-26T10:17:45 WEST" finished-at="2020-06-26T10:20:17 WEST">
+  <suite name="Suite" duration-ms="212880" started-at="2020-07-05T12:53:22 WEST" finished-at="2020-07-05T12:56:55 WEST">
     <groups>
     </groups>
-    <test name="Test0" duration-ms="12972" started-at="2020-06-26T10:17:45 WEST" finished-at="2020-06-26T10:17:58 WEST">
+    <test name="Test1" duration-ms="15947" started-at="2020-07-05T12:53:22 WEST" finished-at="2020-07-05T12:53:38 WEST">
       <class name="testalten.ticket">
-        <test-method status="PASS" signature="Clicking()[pri:0, instance:testalten.ticket@27a5f880]" name="Clicking" duration-ms="12906" started-at="2020-06-26T10:17:45 WEST" finished-at="2020-06-26T10:17:58 WEST">
+        <test-method status="PASS" signature="Clicking()[pri:0, instance:testalten.ticket@27a5f880]" name="Clicking" duration-ms="15895" started-at="2020-07-05T12:53:22 WEST" finished-at="2020-07-05T12:53:38 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clicking -->
       </class> <!-- testalten.ticket -->
-    </test> <!-- Test0 -->
-    <test name="Test1" duration-ms="29827" started-at="2020-06-26T10:17:58 WEST" finished-at="2020-06-26T10:18:28 WEST">
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="45164" started-at="2020-07-05T12:53:38 WEST" finished-at="2020-07-05T12:54:23 WEST">
       <class name="sample.CreationCompte">
-        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@33c7e1bb]" name="Creer" duration-ms="29827" started-at="2020-06-26T10:17:58 WEST" finished-at="2020-06-26T10:18:28 WEST">
+        <test-method status="PASS" signature="Creer()[pri:0, instance:sample.CreationCompte@33c7e1bb]" name="Creer" duration-ms="45148" started-at="2020-07-05T12:53:38 WEST" finished-at="2020-07-05T12:54:23 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Creer -->
       </class> <!-- sample.CreationCompte -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="23942" started-at="2020-06-26T10:18:28 WEST" finished-at="2020-06-26T10:18:52 WEST">
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="77963" started-at="2020-07-05T12:54:23 WEST" finished-at="2020-07-05T12:55:41 WEST">
       <class name="sample1.Login">
-        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@bd8db5a]" name="logining" duration-ms="23929" started-at="2020-06-26T10:18:28 WEST" finished-at="2020-06-26T10:18:52 WEST">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample1.Login@bd8db5a]" name="logining" duration-ms="77948" started-at="2020-07-05T12:54:23 WEST" finished-at="2020-07-05T12:55:41 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logining -->
       </class> <!-- sample1.Login -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="46919" started-at="2020-06-26T10:18:52 WEST" finished-at="2020-06-26T10:19:39 WEST">
-      <class name="sample2.ajout">
-        <test-method status="PASS" signature="Adding()[pri:0, instance:sample2.ajout@7d70d1b1]" name="Adding" duration-ms="46907" started-at="2020-06-26T10:18:52 WEST" finished-at="2020-06-26T10:19:39 WEST">
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="26465" started-at="2020-07-05T12:55:41 WEST" finished-at="2020-07-05T12:56:08 WEST">
+      <class name="sample2.FailedLogin">
+        <test-method status="PASS" signature="logining()[pri:0, instance:sample2.FailedLogin@7d70d1b1]" name="logining" duration-ms="26461" started-at="2020-07-05T12:55:41 WEST" finished-at="2020-07-05T12:56:08 WEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Adding -->
-      </class> <!-- sample2.ajout -->
-    </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="38210" started-at="2020-06-26T10:19:39 WEST" finished-at="2020-06-26T10:20:17 WEST">
+        </test-method> <!-- logining -->
+      </class> <!-- sample2.FailedLogin -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="47252" started-at="2020-07-05T12:56:08 WEST" finished-at="2020-07-05T12:56:55 WEST">
       <class name="Cas.Click">
-        <test-method status="FAIL" signature="Clicking()[pri:0, instance:Cas.Click@307f6b8c]" name="Clicking" duration-ms="38190" started-at="2020-06-26T10:19:39 WEST" finished-at="2020-06-26T10:20:17 WEST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[6]/div[2]/ul[2]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d65ec27f23c5b862f8e5d873e4ba8877]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[6]/div[2]/ul[2]/li[1]/a (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-FR57AJN', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d65ec27f23c5b862f8e5d873e4ba8877
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:255)
-at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
-at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
-at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Clicking()[pri:0, instance:Cas.Click@307f6b8c]" name="Clicking" duration-ms="47248" started-at="2020-07-05T12:56:08 WEST" finished-at="2020-07-05T12:56:55 WEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clicking -->
       </class> <!-- Cas.Click -->
-    </test> <!-- Test4 -->
+    </test> <!-- Test5 -->
   </suite> <!-- Suite -->
 </testng-results>
